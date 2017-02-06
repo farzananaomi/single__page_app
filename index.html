@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h1>{{message}}</h1>
+    <input v-model="message">
+    <!--<form>
+        <span class="error">
+            you must enter a message
+        </span>
+        <textarea></textarea>
+        <button type="submit">Send message</button>
+        
+    </form>-->
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.js"></script>
+
+<script>
+    var data = {
+
+    };
+    new Vue(
+        {
+            el: '#app',
+            data:{
+                message: 'naomi'
+            }
+        }
+    );
+</script>
+</body>
+</html>
